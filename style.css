@@ -11,6 +11,9 @@ body {
 background-color: #113377;
 }
 
+a:link {
+  color:#0077FF;  
+}
 a:visited {
   color:#883311;
 }
