@@ -10,3 +10,7 @@ background-color: #223366;
 body {
 background-color: #113366;
 }
+
+a:visited {
+  color:#663311;
+}
