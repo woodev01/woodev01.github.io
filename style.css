@@ -1,4 +1,4 @@
-h1 {
+h1, h2, h3, h4, h5, h6 {
 color:#0077FF;
 font-size: 32;
 }
@@ -27,9 +27,10 @@ a:visited {
 }
 
 .low {
-  color:#CCCCCC;
+  color:#aaaaaa;
 }
 
 .done {
+  color:#FFFFFF;
   text-decoration: line-through;
 }
