@@ -17,3 +17,19 @@ a:link {
 a:visited {
   color:#883311;
 }
+
+.high {
+  color:red;
+}
+
+.medium {
+  color:orange;
+}
+
+.low {
+  color:#CCCCCC;
+}
+
+.done {
+  text-decoration: line-through;
+}
