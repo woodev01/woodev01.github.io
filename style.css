@@ -1,6 +1,14 @@
-h1, h2, h3, h4, h5, h6 {
+h1 {
   color:#0077FF;
   text-decoration:underline;
+}
+
+h2 {
+  color:#1166EE;
+}
+
+h3, h4, h5, h6 {
+  color:#2266DD;
 }
 
 head {
