@@ -15,10 +15,14 @@ head {
   background-color: #223377;
 }
 
-td, ul, p {
+td, ul {
   color: #3355DD;
 }
 
+p {
+  color: #3366BB;
+}
+  
 body {
   background-color: #113377;
 }
