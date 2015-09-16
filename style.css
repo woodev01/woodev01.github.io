@@ -27,6 +27,35 @@ body {
   background-color: #113377;
 }
 
+#high {
+  background-color:red;
+}
+#high>li {
+  color: white;
+}
+
+#medium {
+  background-color:orange;
+}
+#medium>li {
+  color: brown;
+}
+
+#low {
+  background-color:gray;
+}
+#low>li {
+  color: black;
+}
+
+#done {
+  background-color:black;
+}
+#done>li {
+  text-decoration:line-through;
+  color: cyan;
+}
+
 a:link {
   color:#0077FF;  
 }
