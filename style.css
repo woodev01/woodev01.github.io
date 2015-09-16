@@ -15,7 +15,7 @@ head {
   background-color: #223377;
 }
 
-td ul {
+td, ul, p {
   color: #3355DD;
 }
 
