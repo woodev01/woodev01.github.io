@@ -29,6 +29,7 @@ body {
 
 section {
   border: 2px solid black;
+  overflow: auto;
 }
 
 #high {
@@ -51,7 +52,7 @@ section {
 }
 
 #medium>h1 {
-  color:white;
+  color:brown;
   align:center
 }
 
@@ -63,7 +64,7 @@ section {
 }
 
 #low>h1 {
-  color:white;
+  color:black;
   align:center
 }
 
@@ -76,8 +77,8 @@ section {
 }
 
 #done>h1 {
-  color:white;
-  align:center
+  color:cyan;
+  align:center;
 }
 
 a:link {
