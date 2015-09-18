@@ -30,28 +30,28 @@ body {
 #high {
   background-color:red;
 }
-#high>li {
+#high>ul {
   color: white;
 }
 
 #medium {
   background-color:orange;
 }
-#medium>li {
+#medium>ul {
   color: brown;
 }
 
 #low {
   background-color:gray;
 }
-#low>li {
+#low>ul {
   color: black;
 }
 
 #done {
   background-color:black;
 }
-#done>li {
+#done>ul {
   text-decoration:line-through;
   color: cyan;
 }
