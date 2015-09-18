@@ -32,6 +32,12 @@ section {
   border: 2px solid black;
   overflow: auto;
   text-align:center;
+  display: inline;
+  float:left;
+}
+
+footer{
+  clear:both;
 }
 
 #high {
