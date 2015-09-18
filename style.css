@@ -41,7 +41,7 @@ section {
 
 #high>h1 {
   color:white;
-  align:center;
+  text-align:center;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ section {
 
 #medium>h1 {
   color:brown;
-  align:center;
+  text-align:center;
   text-decoration:none;
 }
 
@@ -67,7 +67,7 @@ section {
 
 #low>h1 {
   color:black;
-  align:center;
+  text-align:center;
   text-decoration:none;
 }
 
@@ -81,7 +81,7 @@ section {
 
 #done>h1 {
   color:cyan;
-  align:center;
+  text-align:center;
   text-decoration:none;
 }
 
