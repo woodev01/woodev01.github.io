@@ -28,7 +28,7 @@ body {
 }
 
 section {
-  margin:5px;
+  margin:50px;
   border: 2px solid black;
   overflow: auto;
   text-align:center;
