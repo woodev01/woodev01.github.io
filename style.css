@@ -28,10 +28,9 @@ body {
 }
 
 section {
-  margin:50px;
+  margin:5px;
   border: 2px solid black;
   overflow: auto;
-  text-align:center;
   display: inline;
   float:left;
 }
