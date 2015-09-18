@@ -41,7 +41,8 @@ section {
 
 #high>h1 {
   color:white;
-  align:center
+  align:center;
+  text-decoration: none;
 }
 
 #medium {
@@ -53,7 +54,8 @@ section {
 
 #medium>h1 {
   color:brown;
-  align:center
+  align:center;
+  text-decoration:none;
 }
 
 #low {
@@ -65,7 +67,8 @@ section {
 
 #low>h1 {
   color:black;
-  align:center
+  align:center;
+  text-decoration:none;
 }
 
 #done {
@@ -79,6 +82,7 @@ section {
 #done>h1 {
   color:cyan;
   align:center;
+  text-decoration:none;
 }
 
 a:link {
