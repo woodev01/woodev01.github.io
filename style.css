@@ -28,8 +28,10 @@ body {
 }
 
 section {
+  margin:5px;
   border: 2px solid black;
   overflow: auto;
+  text-align:center;
 }
 
 #high {
