@@ -34,11 +34,21 @@ body {
   color: white;
 }
 
+#high>h1 {
+  color:white;
+  align:center
+}
+
 #medium {
   background-color:orange;
 }
 #medium>ul {
   color: brown;
+}
+
+#medium>h1 {
+  color:white;
+  align:center
 }
 
 #low {
@@ -48,12 +58,22 @@ body {
   color: black;
 }
 
+#low>h1 {
+  color:white;
+  align:center
+}
+
 #done {
   background-color:black;
 }
 #done>ul {
   text-decoration:line-through;
   color: cyan;
+}
+
+#done>h1 {
+  color:white;
+  align:center
 }
 
 a:link {
