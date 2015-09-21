@@ -37,6 +37,9 @@ section.floater {
 
 footer{
   clear:both;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #high {
