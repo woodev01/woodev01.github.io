@@ -36,6 +36,7 @@ section.floater {
 }
 
 footer{
+  margin:5px;
   background-color:#AA33CC;
   clear:both;
   position: fixed;
