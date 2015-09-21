@@ -15,7 +15,7 @@ h3, h4, h5, h6 {
   background-color:#AA33CC;
   position: fixed;
   left:0;
-  bottom: 0;
+  top: 0;
   width: 100%;
 }
 
