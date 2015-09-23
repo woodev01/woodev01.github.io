@@ -21,7 +21,7 @@ h3, h4, h5, h6 {
 
 head {
   background-color: #223377;
-  margin-top:50px;
+  border-top:50px;
 }
 
 td, ul {
