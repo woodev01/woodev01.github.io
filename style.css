@@ -10,7 +10,10 @@ h2 {
 h3, h4, h5, h6 {
   color:#2266DD;
 }
-
+section{
+  float:right;
+  width:20%;
+}
 aside{
   background-color:cyan;
   float:left;
