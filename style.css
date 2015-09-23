@@ -10,6 +10,12 @@ h2 {
 h3, h4, h5, h6 {
   color:#2266DD;
 }
+
+aside{
+  background-color:cyan;
+  float:left;
+  width:80%;
+}
 p.nav{
   color:#FFFFFF;
   text-align:center;
