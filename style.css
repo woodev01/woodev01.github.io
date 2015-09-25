@@ -23,7 +23,7 @@ section{
   height:100%;
 }
 
-section.nav>li, ul {
+p.nav>li, ul {
   display:inline;
 }
 
