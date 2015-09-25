@@ -10,14 +10,24 @@ h2 {
 h3, h4, h5, h6 {
   color:#2266DD;
 }
-section{
-  float:right;
-  width:20%;
+
+body {
+  background-color: #113377;
+  margin-top:50px;
+  
 }
+
+section{
+  background-color: #1155AA;
+  margin-left:10px;
+  float:right;
+  width:50%;
+}
+
 aside{
   background-color:cyan;
   float:left;
-  width:80%;
+  width:50%;
 }
 p.nav{
   text-size: 36pt;
@@ -56,11 +66,7 @@ p {
   color: #3366BB;
 }
   
-body {
-  background-color: #113377;
-  margin-top:50px;
-  
-}
+
 
 section.floater {
   margin:5px;
