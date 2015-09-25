@@ -46,10 +46,10 @@ nav.nav{
   color:#FFFFFF;
   text-align:center;
 }
-ul.nav{
+nav ul{
   display:inline;
 }
-li.nav{
+nav li{
   display:inline;
 }
 .nav {
