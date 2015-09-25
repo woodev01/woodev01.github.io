@@ -22,12 +22,14 @@ section{
   margin-left:10px;
   float:right;
   width:50%;
+  height:100%;
 }
 
 aside{
   background-color:cyan;
   float:left;
   width:50%;
+  height:100%;
 }
 p.nav{
   text-size: 50pt;
