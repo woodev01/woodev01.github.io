@@ -33,6 +33,7 @@ section>img {
 }
 
 aside{
+  margin-left:15px;
   background-color:cyan;
   float:left;
   width:50%;
