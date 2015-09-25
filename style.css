@@ -39,7 +39,7 @@ aside{
   height:100%;
 }
 
-aside>h1 h2 h3 h4 h5 p{
+aside>h1, h2, h3, h4, h5, p, ul, ui{
   margin-left:25px;
 }
 
