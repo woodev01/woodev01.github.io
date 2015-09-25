@@ -47,6 +47,12 @@ p.nav{
   text-align:center;
   display:inline;
 }
+ul.nav{
+  display:inline;
+}
+li.nav{
+  display:inline;
+}
 .nav {
   background-color:#AA33CC;
   -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
