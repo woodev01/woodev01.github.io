@@ -22,7 +22,9 @@ section{
   width:50%;
   height:100%;
 }
-
+section>ul, li {
+  display:inline;
+}
 section>p{
     margin-left:10px;
 }
