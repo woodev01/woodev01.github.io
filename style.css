@@ -158,6 +158,10 @@ a:visited {
   color:#883311;
 }
 
+a:hover {
+  color:#55FFA7;
+}
+
 .high {
   color:red;
 }
