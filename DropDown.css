@@ -25,3 +25,9 @@ nav ul ul {
     left: 7em;
     display: block;
 }
+
+nav li a {
+    display: block;
+    padding: 0.25em 0 0.25em 0.5em;
+    text-decoration: none;
+}
