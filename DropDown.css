@@ -31,3 +31,20 @@ nav li a {
     padding: 0.25em 0 0.25em 0.5em;
     text-decoration: none;
 }
+
+nav li:hover {
+    background: #EBB;
+}
+
+nav li.submenu {
+    background: url(http://...submenu.gif) 95% 50% no-repeat;
+}
+
+nav li.submenu:hover {
+    background-color: #EDD;
+}
+
+nav ul.level1 li.submenu:hover ul.level2,
+nav ul.level2 li.submenu:hover ul.level3 {
+    display:block;
+}
