@@ -3,3 +3,25 @@ nav {
     width: 7em;
     background: #FDD;
 }
+
+nav ul {
+     margin: 0;
+     padding: 0;
+     width: 7em;
+     background: white;
+     border: 1px solid;
+}
+
+nav li {
+     position: relative;
+     list-style: none;
+     margin: 0;
+     border-bottom: 1px solid #CCC;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 0;
+    left: 7em;
+    display: block;
+}
