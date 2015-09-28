@@ -51,7 +51,7 @@ nav li:hover {
 }
 
 nav li.submenu {
-    background: url(http://...submenu.gif) 95% 50% no-repeat;
+    background: url(http://http://interactivepython.org/runestone/static/webfundamentals/_static/submenu.gif) 95% 50% no-repeat;
 }
 
 nav li.submenu:hover {
