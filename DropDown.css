@@ -2,6 +2,23 @@ nav {
     float: left;
     width: 7em;
     background: #FDD;
+    background-color:#AA33CC;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    position: fixed;
+    left:0;
+    top: 0px;
+    height:50px;
+    width: 100%;
+}
+
+@-webkit-keyframes mymove {
+    50% {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {background-color: #4477AA;}
 }
 
 nav ul {
@@ -25,6 +42,8 @@ nav ul ul {
     left: 7em;
     display: block;
 }
+
+
 
 nav li a {
     display: block;
