@@ -1,1 +1,5 @@
-
+nav {
+    float: left;
+    width: 7em;
+    background: #FDD;
+}
