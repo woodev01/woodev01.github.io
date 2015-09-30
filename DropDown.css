@@ -3,17 +3,6 @@ nav {
     width: 7em;
     background: #FDD;
     background-color:#AA33CC;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
-}
-
-@-webkit-keyframes mymove {
-    50% {background-color: blue;}
-}
-
-/* Standard syntax */
-@keyframes mymove {
-    50% {background-color: #4477AA;}
 }
 
 nav ul {
