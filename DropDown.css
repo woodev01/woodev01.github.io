@@ -51,7 +51,7 @@ nav li:hover {
 }
 
 nav li.submenu {
-    background: url(http://http://interactivepython.org/runestone/static/webfundamentals/_static/submenu.gif) 95% 50% no-repeat;
+    background: url(http://interactivepython.org/runestone/static/webfundamentals/_static/submenu.gif) 95% 50% no-repeat;
 }
 
 nav li.submenu:hover {
@@ -60,5 +60,5 @@ nav li.submenu:hover {
 
 nav ul.level1 li.submenu:hover ul.level2,
 nav ul.level2 li.submenu:hover ul.level3 {
-    display:block;
+    display: block;
 }
