@@ -36,18 +36,18 @@ nav li a {
 }
 
 nav li:hover {
-    background: #EBB;
+    background: #5577BB;
 }
 
-nav li.submenu {
+nav li.menu {
     background: url(http://interactivepython.org/runestone/static/webfundamentals/_static/submenu.gif) 95% 50% no-repeat;
 }
 
-nav li.submenu:hover {
+nav li.menu:hover {
     background-color: #EDD;
 }
 
-nav ul.level1 li.submenu:hover ul.level2,
-nav ul.level2 li.submenu:hover ul.level3 {
+nav ul.level1 li.menu:hover ul.level2,
+nav ul.level2 li.menu:hover ul.level3 {
     display: block;
 }
