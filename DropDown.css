@@ -1,10 +1,10 @@
-nav {
+#a {
     float: left;
     width: 7em;
     background: #FDD;
 }
 
-nav ul {
+#a ul {
      margin: 0;
      padding: 0;
      width: 7em;
@@ -12,39 +12,39 @@ nav ul {
      border: 1px solid;
 }
 
-nav li {
+#a li {
      position: relative;
      list-style: none;
      margin: 0;
      border-bottom: 1px solid #CCC;
 }
 
-nav li a {
+#a li a {
     display: block;
     padding: 0.25em 0 0.25em 0.5em;
     text-decoration: none;
 }
 
-nav ul ul {
+#a ul ul {
     position: absolute;
     top: 0;
     left: 7em;
     display: none;
 }
 
-nav li:hover {
+#a li:hover {
     background: #5577BB;
 }
 
-nav li.menu {
+#a li.menu {
     background: url(http://interactivepython.org/runestone/static/webfundamentals/_static/submenu.gif) 95% 50% no-repeat;
 }
 
-nav li.menu:hover {
+#a li.menu:hover {
     background-color: #EDD;
 }
 
-nav ul.level1 li.menu:hover ul.level2,
-nav ul.level2 li.menu:hover ul.level3 {
+#a ul.level1 li.menu:hover ul.level2,
+#a ul.level2 li.menu:hover ul.level3 {
     display: block;
 }
