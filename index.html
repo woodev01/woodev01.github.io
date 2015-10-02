@@ -1,6 +1,4 @@
 <html>
-<link rel="stylesheet" href="style.css" type="text/css">
-<link rel="stylesheet" href="DropDown.css" type="text/css">
 <nav id='a'><ul>
    <li><a href="gallery.html">Gallery</a></li>
    <li>|</li>
@@ -10,7 +8,8 @@
    <li>|</li>
    <li><a href="todo2.html">To Do Assignment #2</a></li>
    </ul></nav>
-<head><title>Index</title> </head>
+<head><link rel="stylesheet" href="style.css" type="text/css">
+<title>Index</title> </head>
 <body>
 <section>
 <img src="https://pbs.twimg.com/profile_images/2671272999/4a50ed48b9d1259bceb42c1102e0e2d7_400x400.jpeg" />
@@ -37,6 +36,7 @@
             var Larry;
             Larry = document.querySelector('nav')
             Larry.innerHTML = "<ul class='level1'><li><a href='hobby.html'>Hobbies</a></li><li><a href='gallery.html'>Gallery</a></li><li class='menu'><a href='DropDown.html'>Assignments</a><ul class='level2'><li><a href='todo.html'>To Do Assignment #1</a></li><li><a href='todo2.html'>To Do Assignment #2</a></li></ul></li><li><a href='index.html'>Index</a></li></ul> "
+            Document.head.innerHTML = "<link rel='stylesheet' href='DropDown.css' type='text/css'><title>Index</title>"
          }
       </script>
 </html>
