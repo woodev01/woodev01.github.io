@@ -42,18 +42,18 @@ aside>h1, h2, h3, h4, h5, p, ul, ui{
   margin-left:25px;
 }
 
-nav.nav{
-  color:#FFFFFF;
-  text-align:center;
-  display:inline;
-}
+
 nav ul{
   display: inline;
 }
 nav li{
   display: inline;
 }
-.nav {
+#a{
+  color:#FFFFFF;
+  text-align:center;
+  display:inline;
+
   background-color:#AA33CC;
   -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
   animation: mymove 5s infinite;
@@ -73,9 +73,6 @@ nav li{
     50% {background-color: #4477AA;}
 }
 
-head {
-  background-color: #223377;
-}
 
 td, ul {
   color: #3355DD;
