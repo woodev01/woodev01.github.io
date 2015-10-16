@@ -16,29 +16,29 @@ body {
   margin-top:50px;
 }
 
-section{
+#c{
   float:right;
   width:50%;
   height:100%;
 }
 
-section>p{
+#c>p{
     margin-left:10px;
 }
 
-section>img {
+#c>img {
     margin-top:15;
     margin-left:15px;
 }
 
-aside{
+#b{
   background-color:cyan;
   float:left;
   width:50%;
   height:100%;
 }
 
-aside>h1, h2, h3, h4, h5, p, ul, ui{
+#b>h1, h2, h3, h4, h5, p, ul, ui{
   margin-left:25px;
 }
 
