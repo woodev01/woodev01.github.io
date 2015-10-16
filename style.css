@@ -22,8 +22,8 @@ body {
   height:100%;
 }
 
-#c>p{
-    margin-left:10px;
+section>p{
+    margin-left:20px;
 }
 
 #c>img {
