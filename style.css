@@ -184,15 +184,15 @@ a:hover {
 }
 
 #entrance {
-  margin-left=auto;
-  margin-right=auto;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #todos {
-  background-color="#4488CC";
-  width=200px;
-  height=150px;
-  margin-left=auto;
-  margin-right=auto;
+  background-color:"#4488CC";
+  width:200px;
+  height:150px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
