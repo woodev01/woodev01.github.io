@@ -189,7 +189,7 @@ a:hover {
 }
 
 #todos {
-  background-color:"#4488CC";
+  background-color:#4488CC;
   width:200px;
   height:150px;
   margin-left:auto;
