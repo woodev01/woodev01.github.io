@@ -14,6 +14,7 @@ checker = document.createElement("input");
 li = document.createElement("li");
 
 checker.type = "checkbox";
+checker.checked= "doneTask();"
 
 contents = document.createTextNode(edd);
 li.classList.add(eddie);
@@ -26,10 +27,10 @@ ed.appendChild(li);
 
 }
 //localSave(id of your UL as a string)
-//doneTask = function(){
-  //if (this.checked) {
-    //this.parentNode.classList.add("done");
-  //} else {
-      //this.parentNode.classList.remove("done");
-//}
-//}
+doneTask = function(){
+  if (this.checked) {
+    this.parentNode.classList.add("done");
+  } else {
+      this.parentNode.classList.remove("done");
+}
+}
