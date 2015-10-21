@@ -7,7 +7,7 @@ var li
 var contents
 
 ed = document.querySelector("#todolist");
-edd = document.querySelector("#task");
+edd = document.querySelector("#task").value;
 
 li = document.createElement("li");
 
@@ -20,3 +20,10 @@ ed.appendChild(li);
 
 }
 //localSave(id of your UL as a string)
+//doneTask = function(){
+  //if (this.checked) {
+    //this.parentNode.classList.add("done");
+  //} else {
+      //this.parentNode.classList.remove("done");
+//}
+//}
