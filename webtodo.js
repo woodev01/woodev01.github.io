@@ -8,6 +8,7 @@ var contents
 
 ed = document.querySelector("#todolist");
 edd = document.querySelector("#task").value;
+eddie = document.querySelector("#priority").value;
 
 li = document.createElement("li");
 
