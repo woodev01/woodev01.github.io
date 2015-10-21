@@ -15,4 +15,7 @@ li.appendChild(contents);
 
 ed.appendChild(li);
 
+
+
 }
+//localSave(id of your UL as a string)
