@@ -47,6 +47,7 @@ nav ul{
   display: inline;
 }
 #todolist{
+  list-style-type = None
   display: inline;
 }
 nav li{
