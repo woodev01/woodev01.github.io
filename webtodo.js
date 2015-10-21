@@ -4,6 +4,7 @@ var ed
 var edd
 var eddie
 var li
+var contents
 
 ed = document.querySelector("#todolist");
 edd = document.querySelector("#task");
