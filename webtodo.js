@@ -1,4 +1,4 @@
-newbutton = function() {
+newButton = function() {
 
 var ed
 var edd
