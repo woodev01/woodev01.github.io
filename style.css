@@ -46,6 +46,9 @@ section>p{
 nav ul{
   display: inline;
 }
+#todolist{
+  display: inline;
+}
 nav li{
   display: inline;
 }
