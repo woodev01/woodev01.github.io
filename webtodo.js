@@ -13,6 +13,7 @@ eddie = document.querySelector("#priority").value;
 li = document.createElement("li");
 
 contents = document.createTextNode(edd);
+li.classList.add(eddie)
 li.appendChild(contents);
 
 ed.appendChild(li);
