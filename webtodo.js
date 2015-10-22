@@ -22,11 +22,10 @@ li.appendChild(checker);
 li.appendChild(contents);
 
 ed.appendChild(li);
-
+localSave(ed);
 
 
 }
-//localSave(id of your UL as a string)
 doneTask = function(){
   if (this.checked) {
     this.parentNode.classList.add("done");
