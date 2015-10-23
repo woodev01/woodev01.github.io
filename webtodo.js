@@ -23,7 +23,7 @@ li.appendChild(checker);
 li.appendChild(contents);
 
 ed.appendChild(li);
-localSave("tasklist");
+localSave("todolist");
 
 
 }
@@ -31,10 +31,10 @@ localSave("tasklist");
 doneTask = function() {
   if (this.checked) {
     this.parentNode.classList.add("done");
-    localSave("tasklist");
+    localSave("todolist");
   } else {
     this.parentNode.classList.remove("done");
-    localSave("tasklist");
+    localSave("todolist");
     
 }
 }
