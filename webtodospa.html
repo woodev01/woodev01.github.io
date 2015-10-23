@@ -6,7 +6,7 @@
     <Title>Evan's To Do App</Title>
   </head>
   <Body>
-    <nav id='a'><ul>
+   <nav id='a'><ul>
    <li><a href="gallery.html">Gallery</a></li>
    <li>|</li>
    <li><a href="hobby.html">Hobbies</a></li>
@@ -23,7 +23,7 @@
       </ul>
     </section>
     <article id="entrance">
-      <p>Enter Task: <input id="task" type="text" value="Enter a To Do" size="80">
+      <p>Enter Task: <input id="task" type="text" onfocus="if(this.value == 'Enter a To Do') { this.value = ''; }" value="Enter a To Do" size="80">
         <select id="priority">
           <option>High</option>
           <option>Medium</option>
