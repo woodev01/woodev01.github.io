@@ -29,8 +29,8 @@ localSave(ed);
 
 doneTask = function() {
   if (this.checked) {
-    this.parentNode.classList.add("done");
+    this.parentNode.parentNode.classList.add("done");
   } else {
-      this.parentNode.classList.remove("done");
+      this.parentNode.parentNode.classList.remove("done");
 }
 }
