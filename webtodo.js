@@ -14,7 +14,7 @@ checker = document.createElement("input");
 li = document.createElement("li");
 
 checker.type = "checkbox";
-checker.setAttribute("onClick","doneTask();");
+checker.onClick = doneTask;
 
 contents = document.createTextNode(edd);
 li.classList.add(eddie);
@@ -22,7 +22,7 @@ li.appendChild(checker);
 li.appendChild(contents);
 
 ed.appendChild(li);
-localSave(ed);
+localSave("tasklist");
 
 
 }
@@ -30,7 +30,10 @@ localSave(ed);
 doneTask = function() {
   if (this.checked) {
     this.parentNode.classList.add("done");
+    localSave("tasklist");
   } else {
-      this.parentNode.classList.remove("done");
+    this.parentNode.classList.remove("done");
+    localSave("tasklist");
+    
 }
 }
