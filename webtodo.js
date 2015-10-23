@@ -31,10 +31,8 @@ localSave("todolist");
 doneTask = function() {
   if (this.checked) {
     this.parentNode.classList.add("done");
-    localSave("todolist");
   } else {
     this.parentNode.classList.remove("done");
-    localSave("todolist");
-    
-}
+  }
+  localSave("todolist");
 }
