@@ -1,10 +1,11 @@
 newButton = function() {
 
-var ed
-var edd
-var eddie
-var li
-var contents
+var ed;
+var edd;
+var eddie;
+var li;
+var contents;
+var checker;
 
 ed = document.querySelector("#todolist");
 edd = document.querySelector("#task").value;
