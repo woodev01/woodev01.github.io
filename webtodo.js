@@ -14,7 +14,7 @@ checker = document.createElement("input");
 li = document.createElement("li");
 
 checker.type = "checkbox";
-checker.onClick = function() {doneTask()};
+checker.onClick = "doneTask();"
 
 contents = document.createTextNode(edd);
 li.classList.add(eddie);
@@ -26,6 +26,7 @@ localSave(ed);
 
 
 }
+
 doneTask = function(){
   if (this.checked) {
     this.parentNode.classList.add("done");
