@@ -23,6 +23,7 @@ li.appendChild(checker);
 li.appendChild(contents);
 
 ed.appendChild(li);
+edd = 'Enter A New To Do';
 localSave("todolist");
 
 
