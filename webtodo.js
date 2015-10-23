@@ -29,10 +29,8 @@ localSave(ed);
 
 doneTask = function() {
   if (this.checked) {
-    System.out.println(this);
     this.parentNode.classList.add("done");
   } else {
-      System.out.println(this);
       this.parentNode.classList.remove("done");
 }
 }
