@@ -14,7 +14,13 @@ checker = document.createElement("input");
 li = document.createElement("li");
 
 checker.type = "checkbox";
-checker.onClick = "doneTask();"
+checker.onClick = function() {
+  if (this.checked) {
+    this.parentNode.classList.add("done");
+  } else {
+      this.parentNode.classList.remove("done");
+}
+}
 
 contents = document.createTextNode(edd);
 li.classList.add(eddie);
@@ -27,10 +33,3 @@ localSave(ed);
 
 }
 
-doneTask = function(){
-  if (this.checked) {
-    this.parentNode.classList.add("done");
-  } else {
-      this.parentNode.classList.remove("done");
-}
-}
